@@ -115,6 +115,7 @@ function bananas(){
   bananas.scale = 0.1;
   bananas.velocityX = -6;
   bananas.lifetime = -1;
+  bananas = Math.round(random(100, 150, 200, 250)
   
   bananaGroup.add(bananas);
 }
